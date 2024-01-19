@@ -1,5 +1,5 @@
 import styles from './style'
-import { Business, Clients,  Footer, Navbar, Testimonials, Hero } from "./components";
+import { Business, Clients,  Footer, Navbar, Testimonials, Hero, CTA } from "./components";
 
 const App = () => {
   return (
@@ -20,6 +20,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>       
           <Business />
           <Testimonials />
+          <CTA />
           <Clients />
           <Footer />
         </div>
